@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    color:white;
+    background-color: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    height:700px;
+    width:100%;
+    background-image: url(assets/images/cover_page.jpg); 
+    position: absolute;
+}
+.hero-box{
+    height:700px;
+    width:100%;
+    background-color: #000000; 
+    position:relative;
+    opacity:0.74; 
+    z-index: 100;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+header{
+    height:92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.nav-bar{
+    height:90px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+    
+}
+.logo{
+    height:40px;
+    width:148px;;
+    position: relative;
+    z-index: 60;
+}
+.lang{
+    height:32px;
+    width:125px;
+} 
+.language{
+    height:32px;
+    width:125px;
+    color:white;
+    background-color: rgba(0,0,0,0);
+    font-weight: 500;
+    margin-left: 780px;
+    z-index:90
+}
+.box{
+    background-color: red;
+}
+.box:hover{
+    background-color: rgb(206, 1, 1);
+}
+.signin{
+    height:32px;
+    width:76px;
+    border-radius: 8px;
+    background-color:red;
+    font-weight: 700;
+    opacity: 1;
+    color:white;
+    z-index: 20;
+    
+}
+.sign-in{
+    margin-left: 800px;
+    border: none;
+    border-radius: 8px;
+    z-index: 20;
+    position: relative;
+    z-index: 50;
+}
+.subs{
+    height:304px;
+    width:1174px;
+    text-align: center;
+    margin-top: 100px;
+    background-color: black;
+    opacity: 1;
+    position: relative;
+    z-index: 70;
+}
+.email{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    z-index: 70;
+    
+}
+.email-box{
+    height:56px;
+    width:375px;
+    background-color: rgb(0,0,0);
+    opacity: 1;
+    border: 0.2px solid white;
+    border-radius:6px;
+}
+.get-started{
+    background-color: red;
+    height:56px;
+    width:205px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: larger;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+    margin-left: 10px;
+}
+.nav-heading{
+    font-size: 48px;
+}
+.nav-para{
+    margin-top: 10px;
+    font-size: 24px;
+}
+form{
+    margin-top: 20px;
+}
+form p{
+    font-size: 20px;
+}
+.box1{
+    width:100%;
+    height: 500px;
+    border-top:6px solid rgb(48, 48, 48);
+    display: flex; 
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.text-box{
+    width:1575px;
+    height:440px;
+    margin-top: 200px;
+    margin-left: 375px;
+    position: relative;
+}
+.text h2{
+    font-size: 48px;
+}
+.text p{
+    font-size: 24px;
+}
+.secImg {
+    position: relative;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.secImg img {
+    width: 555px;
+    position: static;
+    margin-right: 300px;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    margin-top: 33px;
+    margin-right: 380px;
+    z-index: 11;
+    top: 54px;
+    right: 0;
+    width: 400px;
+}
+.box2{
+    width:100%;
+    height: 600px;
+    border-top:6px solid rgb(48, 48, 48);
+    display: flex;
+    position: relative; 
+    z-index: 50;
+}
+.box2-img img{
+    margin-top: 50px;
+    display: flex;
+    margin-left: 300px; 
+}
+.text-box2{
+    margin-top: 200px;
+}
+.box3{
+    width:100%;
+    height: 500px;
+    border-top:6px solid rgb(48, 48, 48);
+    display: flex;
+    position: relative; 
+    z-index: 50;
+}
+.text-box3{
+    width:875px;
+    margin-top: 200px;
+    margin-left: 350px;
+
+}
+.secimg2{
+        position: relative;
+        margin-top: 50px;
+}
+.secimg2 img{
+        width:555px;
+        position: static;
+        margin-top: 100px;
+        margin-right: 300px;
+        z-index: 10;
+}
+.secimg2 video{
+        width:345px;
+        position:absolute;
+        margin-top: 80px;
+        margin-right:450px;
+        top:54px;
+        left:100px;
+        z-index: 50;
+} 
